@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		392286212C91BB1D006224A4 /* SelectMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392286202C91BB1D006224A4 /* SelectMenuView.swift */; };
+		3924E0732C9A1D920074D5E8 /* ListingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3924E0722C9A1D920074D5E8 /* ListingsView.swift */; };
+		3924E0752C9A1DF00074D5E8 /* ListingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3924E0742C9A1DF00074D5E8 /* ListingsViewModel.swift */; };
+		3924E0772C9F7DA10074D5E8 /* ListingsSelectMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3924E0762C9F7DA10074D5E8 /* ListingsSelectMenuView.swift */; };
+		392B9E212C8E723500BB5E1F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 392B9E202C8E723500BB5E1F /* GoogleService-Info.plist */; };
+		39316CAD2C8E631D006ABE52 /* FindYourCarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39316CAC2C8E631D006ABE52 /* FindYourCarApp.swift */; };
+		39316CB12C8E631F006ABE52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39316CB02C8E631F006ABE52 /* Assets.xcassets */; };
+		39316CB42C8E631F006ABE52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39316CB32C8E631F006ABE52 /* Preview Assets.xcassets */; };
+		397748662CAAA5FF00AD28BE /* ProfileInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397748652CAAA5FF00AD28BE /* ProfileInfoViewModel.swift */; };
+		398968C72C8E646100D915DF /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398968C62C8E646100D915DF /* BackButtonView.swift */; };
+		398968C92C8E647900D915DF /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398968C82C8E647900D915DF /* RegisterView.swift */; };
+		398968CD2C8E64A400D915DF /* ResetPasswordFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398968CC2C8E64A400D915DF /* ResetPasswordFormView.swift */; };
+		398968CF2C8E64BD00D915DF /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398968CE2C8E64BD00D915DF /* ResetPasswordView.swift */; };
+		398968D12C8E64DB00D915DF /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398968D02C8E64DB00D915DF /* LoginFormView.swift */; };
+		398968D32C8E64FF00D915DF /* CircleTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398968D22C8E64FF00D915DF /* CircleTopView.swift */; };
+		398968D52C8E651000D915DF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398968D42C8E651000D915DF /* LoginView.swift */; };
+		398968D72C8E652100D915DF /* RegisterFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398968D62C8E652100D915DF /* RegisterFormView.swift */; };
+		398968D92C8E652D00D915DF /* LeadToRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398968D82C8E652D00D915DF /* LeadToRegisterView.swift */; };
+		398968DB2C8E654300D915DF /* FirstLoggedInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398968DA2C8E654300D915DF /* FirstLoggedInView.swift */; };
+		398968E02C8E67C500D915DF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 398968DF2C8E67C500D915DF /* FirebaseAuth */; };
+		398968E22C8E67C500D915DF /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 398968E12C8E67C500D915DF /* FirebaseDatabase */; };
+		398968E42C8E67C500D915DF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 398968E32C8E67C500D915DF /* FirebaseFirestore */; };
+		398968E82C8E68DD00D915DF /* DynamicInputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398968E72C8E68DD00D915DF /* DynamicInputFieldView.swift */; };
+		399B671A2C8F9F2400DD7350 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399B67192C8F9F2400DD7350 /* WelcomeView.swift */; };
+		399B671E2C909D1700DD7350 /* SearchCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399B671D2C909D1700DD7350 /* SearchCarView.swift */; };
+		399C1A392CAC061C00602BF7 /* LoginFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399C1A382CAC061B00602BF7 /* LoginFormViewModel.swift */; };
+		399C1A3B2CAC07B000602BF7 /* RegisterFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399C1A3A2CAC07B000602BF7 /* RegisterFormViewModel.swift */; };
+		399C1A3F2CAC0BF000602BF7 /* SearchCarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399C1A3E2CAC0BF000602BF7 /* SearchCarViewModel.swift */; };
+		399C1A412CAC1B9E00602BF7 /* SelectMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399C1A402CAC1B9E00602BF7 /* SelectMenuViewModel.swift */; };
+		399C1A432CADB04A00602BF7 /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399C1A422CADB04A00602BF7 /* ChangePasswordView.swift */; };
+		399C1A452CADB09500602BF7 /* ChangeEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399C1A442CADB09500602BF7 /* ChangeEmailView.swift */; };
+		399C1A472CAEBDA300602BF7 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399C1A462CAEBDA300602BF7 /* ListItemView.swift */; };
+		399C1A492CAEBF7B00602BF7 /* FilterPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399C1A482CAEBF7B00602BF7 /* FilterPopView.swift */; };
+		399C1A4B2CAEBF8600602BF7 /* SortPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399C1A4A2CAEBF8600602BF7 /* SortPopView.swift */; };
+		39C603182CA1BDC600C1FE97 /* ListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C603172CA1BDC600C1FE97 /* ListingView.swift */; };
+		39C6031A2CA1C4B100C1FE97 /* ListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C603192CA1C4B100C1FE97 /* ListingViewModel.swift */; };
+		39C6031D2CA2A75B00C1FE97 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 39C6031C2CA2A75B00C1FE97 /* FirebaseStorage */; };
+		39C603202CA2A96100C1FE97 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 39C6031F2CA2A96100C1FE97 /* SDWebImageSwiftUI */; };
+		39DC56D42C9595F400D89631 /* CreateListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DC56D32C9595F400D89631 /* CreateListingView.swift */; };
+		39DC56D62C95A13E00D89631 /* ProfileInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DC56D52C95A13E00D89631 /* ProfileInfoView.swift */; };
+		39DC56D92C98420100D89631 /* CreateListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DC56D82C98420100D89631 /* CreateListingViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		392286202C91BB1D006224A4 /* SelectMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMenuView.swift; sourceTree = "<group>"; };
+		3924E0722C9A1D920074D5E8 /* ListingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsView.swift; sourceTree = "<group>"; };
+		3924E0742C9A1DF00074D5E8 /* ListingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsViewModel.swift; sourceTree = "<group>"; };
+		3924E0762C9F7DA10074D5E8 /* ListingsSelectMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsSelectMenuView.swift; sourceTree = "<group>"; };
+		392B9E202C8E723500BB5E1F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		39316CA92C8E631D006ABE52 /* FindYourCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindYourCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39316CAC2C8E631D006ABE52 /* FindYourCarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourCarApp.swift; sourceTree = "<group>"; };
+		39316CB02C8E631F006ABE52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39316CB32C8E631F006ABE52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		397748652CAAA5FF00AD28BE /* ProfileInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoViewModel.swift; sourceTree = "<group>"; };
+		398968C62C8E646100D915DF /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
+		398968C82C8E647900D915DF /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		398968CC2C8E64A400D915DF /* ResetPasswordFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordFormView.swift; sourceTree = "<group>"; };
+		398968CE2C8E64BD00D915DF /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		398968D02C8E64DB00D915DF /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
+		398968D22C8E64FF00D915DF /* CircleTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTopView.swift; sourceTree = "<group>"; };
+		398968D42C8E651000D915DF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		398968D62C8E652100D915DF /* RegisterFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFormView.swift; sourceTree = "<group>"; };
+		398968D82C8E652D00D915DF /* LeadToRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadToRegisterView.swift; sourceTree = "<group>"; };
+		398968DA2C8E654300D915DF /* FirstLoggedInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLoggedInView.swift; sourceTree = "<group>"; };
+		398968E72C8E68DD00D915DF /* DynamicInputFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicInputFieldView.swift; sourceTree = "<group>"; };
+		399B67192C8F9F2400DD7350 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		399B671D2C909D1700DD7350 /* SearchCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCarView.swift; sourceTree = "<group>"; };
+		399C1A382CAC061B00602BF7 /* LoginFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormViewModel.swift; sourceTree = "<group>"; };
+		399C1A3A2CAC07B000602BF7 /* RegisterFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFormViewModel.swift; sourceTree = "<group>"; };
+		399C1A3E2CAC0BF000602BF7 /* SearchCarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCarViewModel.swift; sourceTree = "<group>"; };
+		399C1A402CAC1B9E00602BF7 /* SelectMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMenuViewModel.swift; sourceTree = "<group>"; };
+		399C1A422CADB04A00602BF7 /* ChangePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
+		399C1A442CADB09500602BF7 /* ChangeEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeEmailView.swift; sourceTree = "<group>"; };
+		399C1A462CAEBDA300602BF7 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		399C1A482CAEBF7B00602BF7 /* FilterPopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPopView.swift; sourceTree = "<group>"; };
+		399C1A4A2CAEBF8600602BF7 /* SortPopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortPopView.swift; sourceTree = "<group>"; };
+		39C603172CA1BDC600C1FE97 /* ListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingView.swift; sourceTree = "<group>"; };
+		39C603192CA1C4B100C1FE97 /* ListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingViewModel.swift; sourceTree = "<group>"; };
+		39DC56D32C9595F400D89631 /* CreateListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListingView.swift; sourceTree = "<group>"; };
+		39DC56D52C95A13E00D89631 /* ProfileInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoView.swift; sourceTree = "<group>"; };
+		39DC56D82C98420100D89631 /* CreateListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListingViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39316CA62C8E631D006ABE52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C603202CA2A96100C1FE97 /* SDWebImageSwiftUI in Frameworks */,
+				398968E22C8E67C500D915DF /* FirebaseDatabase in Frameworks */,
+				39C6031D2CA2A75B00C1FE97 /* FirebaseStorage in Frameworks */,
+				398968E02C8E67C500D915DF /* FirebaseAuth in Frameworks */,
+				398968E42C8E67C500D915DF /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39316CA02C8E631D006ABE52 = {
+			isa = PBXGroup;
+			children = (
+				39316CAB2C8E631D006ABE52 /* FindYourCar */,
+				39316CAA2C8E631D006ABE52 /* Products */,
+				39C6031B2CA2A75B00C1FE97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39316CAA2C8E631D006ABE52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39316CA92C8E631D006ABE52 /* FindYourCar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39316CAB2C8E631D006ABE52 /* FindYourCar */ = {
+			isa = PBXGroup;
+			children = (
+				392B9E202C8E723500BB5E1F /* GoogleService-Info.plist */,
+				39316CAC2C8E631D006ABE52 /* FindYourCarApp.swift */,
+				39DC56D72C9841D200D89631 /* ViewModels */,
+				39316CBA2C8E6333006ABE52 /* Views */,
+				39316CB02C8E631F006ABE52 /* Assets.xcassets */,
+				39316CB22C8E631F006ABE52 /* Preview Content */,
+			);
+			path = FindYourCar;
+			sourceTree = "<group>";
+		};
+		39316CB22C8E631F006ABE52 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				39316CB32C8E631F006ABE52 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		39316CBA2C8E6333006ABE52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				398968D42C8E651000D915DF /* LoginView.swift */,
+				398968C62C8E646100D915DF /* BackButtonView.swift */,
+				398968D02C8E64DB00D915DF /* LoginFormView.swift */,
+				398968D22C8E64FF00D915DF /* CircleTopView.swift */,
+				398968D62C8E652100D915DF /* RegisterFormView.swift */,
+				398968D82C8E652D00D915DF /* LeadToRegisterView.swift */,
+				398968C82C8E647900D915DF /* RegisterView.swift */,
+				398968CC2C8E64A400D915DF /* ResetPasswordFormView.swift */,
+				398968CE2C8E64BD00D915DF /* ResetPasswordView.swift */,
+				398968DA2C8E654300D915DF /* FirstLoggedInView.swift */,
+				398968E72C8E68DD00D915DF /* DynamicInputFieldView.swift */,
+				399B67192C8F9F2400DD7350 /* WelcomeView.swift */,
+				399B671D2C909D1700DD7350 /* SearchCarView.swift */,
+				392286202C91BB1D006224A4 /* SelectMenuView.swift */,
+				39DC56D32C9595F400D89631 /* CreateListingView.swift */,
+				39DC56D52C95A13E00D89631 /* ProfileInfoView.swift */,
+				3924E0722C9A1D920074D5E8 /* ListingsView.swift */,
+				3924E0762C9F7DA10074D5E8 /* ListingsSelectMenuView.swift */,
+				39C603172CA1BDC600C1FE97 /* ListingView.swift */,
+				399C1A422CADB04A00602BF7 /* ChangePasswordView.swift */,
+				399C1A442CADB09500602BF7 /* ChangeEmailView.swift */,
+				399C1A462CAEBDA300602BF7 /* ListItemView.swift */,
+				399C1A482CAEBF7B00602BF7 /* FilterPopView.swift */,
+				399C1A4A2CAEBF8600602BF7 /* SortPopView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		39C6031B2CA2A75B00C1FE97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39DC56D72C9841D200D89631 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				39DC56D82C98420100D89631 /* CreateListingViewModel.swift */,
+				3924E0742C9A1DF00074D5E8 /* ListingsViewModel.swift */,
+				39C603192CA1C4B100C1FE97 /* ListingViewModel.swift */,
+				397748652CAAA5FF00AD28BE /* ProfileInfoViewModel.swift */,
+				399C1A382CAC061B00602BF7 /* LoginFormViewModel.swift */,
+				399C1A3A2CAC07B000602BF7 /* RegisterFormViewModel.swift */,
+				399C1A3E2CAC0BF000602BF7 /* SearchCarViewModel.swift */,
+				399C1A402CAC1B9E00602BF7 /* SelectMenuViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39316CA82C8E631D006ABE52 /* FindYourCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39316CB72C8E631F006ABE52 /* Build configuration list for PBXNativeTarget "FindYourCar" */;
+			buildPhases = (
+				39316CA52C8E631D006ABE52 /* Sources */,
+				39316CA62C8E631D006ABE52 /* Frameworks */,
+				39316CA72C8E631D006ABE52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindYourCar;
+			packageProductDependencies = (
+				398968DF2C8E67C500D915DF /* FirebaseAuth */,
+				398968E12C8E67C500D915DF /* FirebaseDatabase */,
+				398968E32C8E67C500D915DF /* FirebaseFirestore */,
+				39C6031C2CA2A75B00C1FE97 /* FirebaseStorage */,
+				39C6031F2CA2A96100C1FE97 /* SDWebImageSwiftUI */,
+			);
+			productName = FindYourCar;
+			productReference = 39316CA92C8E631D006ABE52 /* FindYourCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39316CA12C8E631D006ABE52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					39316CA82C8E631D006ABE52 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 39316CA42C8E631D006ABE52 /* Build configuration list for PBXProject "FindYourCar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39316CA02C8E631D006ABE52;
+			packageReferences = (
+				398968DE2C8E67C500D915DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				39C6031E2CA2A96000C1FE97 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 39316CAA2C8E631D006ABE52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39316CA82C8E631D006ABE52 /* FindYourCar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39316CA72C8E631D006ABE52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39316CB42C8E631F006ABE52 /* Preview Assets.xcassets in Resources */,
+				39316CB12C8E631F006ABE52 /* Assets.xcassets in Resources */,
+				392B9E212C8E723500BB5E1F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39316CA52C8E631D006ABE52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399C1A432CADB04A00602BF7 /* ChangePasswordView.swift in Sources */,
+				399C1A452CADB09500602BF7 /* ChangeEmailView.swift in Sources */,
+				399C1A392CAC061C00602BF7 /* LoginFormViewModel.swift in Sources */,
+				398968C92C8E647900D915DF /* RegisterView.swift in Sources */,
+				39C6031A2CA1C4B100C1FE97 /* ListingViewModel.swift in Sources */,
+				39316CAD2C8E631D006ABE52 /* FindYourCarApp.swift in Sources */,
+				398968D72C8E652100D915DF /* RegisterFormView.swift in Sources */,
+				398968D32C8E64FF00D915DF /* CircleTopView.swift in Sources */,
+				398968D12C8E64DB00D915DF /* LoginFormView.swift in Sources */,
+				3924E0732C9A1D920074D5E8 /* ListingsView.swift in Sources */,
+				39DC56D92C98420100D89631 /* CreateListingViewModel.swift in Sources */,
+				398968CF2C8E64BD00D915DF /* ResetPasswordView.swift in Sources */,
+				399C1A4B2CAEBF8600602BF7 /* SortPopView.swift in Sources */,
+				398968E82C8E68DD00D915DF /* DynamicInputFieldView.swift in Sources */,
+				399C1A3B2CAC07B000602BF7 /* RegisterFormViewModel.swift in Sources */,
+				39C603182CA1BDC600C1FE97 /* ListingView.swift in Sources */,
+				3924E0772C9F7DA10074D5E8 /* ListingsSelectMenuView.swift in Sources */,
+				399B671A2C8F9F2400DD7350 /* WelcomeView.swift in Sources */,
+				398968C72C8E646100D915DF /* BackButtonView.swift in Sources */,
+				398968D52C8E651000D915DF /* LoginView.swift in Sources */,
+				399C1A412CAC1B9E00602BF7 /* SelectMenuViewModel.swift in Sources */,
+				398968DB2C8E654300D915DF /* FirstLoggedInView.swift in Sources */,
+				39DC56D42C9595F400D89631 /* CreateListingView.swift in Sources */,
+				398968D92C8E652D00D915DF /* LeadToRegisterView.swift in Sources */,
+				3924E0752C9A1DF00074D5E8 /* ListingsViewModel.swift in Sources */,
+				399C1A3F2CAC0BF000602BF7 /* SearchCarViewModel.swift in Sources */,
+				399C1A472CAEBDA300602BF7 /* ListItemView.swift in Sources */,
+				392286212C91BB1D006224A4 /* SelectMenuView.swift in Sources */,
+				398968CD2C8E64A400D915DF /* ResetPasswordFormView.swift in Sources */,
+				39DC56D62C95A13E00D89631 /* ProfileInfoView.swift in Sources */,
+				397748662CAAA5FF00AD28BE /* ProfileInfoViewModel.swift in Sources */,
+				399C1A492CAEBF7B00602BF7 /* FilterPopView.swift in Sources */,
+				399B671E2C909D1700DD7350 /* SearchCarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		39316CB52C8E631F006ABE52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39316CB62C8E631F006ABE52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39316CB82C8E631F006ABE52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindYourCar/Preview Content\"";
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emirg.FindYourCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39316CB92C8E631F006ABE52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindYourCar/Preview Content\"";
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emirg.FindYourCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39316CA42C8E631D006ABE52 /* Build configuration list for PBXProject "FindYourCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39316CB52C8E631F006ABE52 /* Debug */,
+				39316CB62C8E631F006ABE52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39316CB72C8E631F006ABE52 /* Build configuration list for PBXNativeTarget "FindYourCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39316CB82C8E631F006ABE52 /* Debug */,
+				39316CB92C8E631F006ABE52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		398968DE2C8E67C500D915DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.1.0;
+			};
+		};
+		39C6031E2CA2A96000C1FE97 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		398968DF2C8E67C500D915DF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 398968DE2C8E67C500D915DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		398968E12C8E67C500D915DF /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 398968DE2C8E67C500D915DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		398968E32C8E67C500D915DF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 398968DE2C8E67C500D915DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		39C6031C2CA2A75B00C1FE97 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 398968DE2C8E67C500D915DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		39C6031F2CA2A96100C1FE97 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39C6031E2CA2A96000C1FE97 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 39316CA12C8E631D006ABE52 /* Project object */;
+}
