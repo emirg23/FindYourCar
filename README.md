@@ -8,8 +8,9 @@ I am currently working on a fitness app that is much more aesthetic, functional 
 
 ![Simulator Screenshot - iPhone 15 - 2024-11-25 at 13 38 35](https://github.com/user-attachments/assets/1f107097-6a95-451b-bbfc-9378d580f14c)
 ![Simulator Screenshot - iPhone 15 - 2024-11-25 at 13 39 05](https://github.com/user-attachments/assets/98cca9d6-462d-492b-8864-99d33dab66c1)
-![Simulator Screenshot - iPhone 15 - 2024-11-25 at 13 40 45](https://github.com/user-attachments/assets/09c994f9-659d-4971-8e6d-1153fff1222c)
 ![Simulator Screenshot - iPhone 15 - 2024-11-25 at 13 39 19](https://github.com/user-attachments/assets/d04e9dd4-4fb3-46f8-aef0-c082e7b94f7c)
+![Simulator Screenshot - iPhone 15 - 2024-11-25 at 13 40 45](https://github.com/user-attachments/assets/09c994f9-659d-4971-8e6d-1153fff1222c)
+
 
 ![Simulator Screenshot - iPhone 15 - 2024-11-25 at 13 39 28](https://github.com/user-attachments/assets/de00c959-f682-4cba-820d-7b0c5f2c1ea5)
 
