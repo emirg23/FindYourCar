@@ -4,8 +4,7 @@ I am currently working on a fitness app that is much more aesthetic, functional 
 
 
 
-<img src="https://raw.githubusercontent.com/user-attachments/assets/71bbd8ec-d67c-4297-a245-170d4b00aada">
-
+![Simulator Screenshot - iPhone 15 - 2024-11-25 at 13 37 17](https://github.com/user-attachments/assets/71bbd8ec-d67c-4297-a245-170d4b00aada)
 ![Simulator Screenshot - iPhone 15 - 2024-11-25 at 13 37 04](https://github.com/user-attachments/assets/7d93a308-1280-45ed-98ac-de4621537118)
 ![Simulator Screenshot - iPhone 15 - 2024-11-25 at 13 38 35](https://github.com/user-attachments/assets/1f107097-6a95-451b-bbfc-9378d580f14c)
 <img width="1440" alt="Ekran Resmi 2024-11-25 13 31 34" src="https://github.com/user-attachments/assets/abaf63a8-1a4d-4bcc-b28f-b09b984796c0">
